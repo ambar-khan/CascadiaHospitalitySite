@@ -2144,7 +2144,7 @@ input, select, textarea {
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
-		font-weight: 900;
+		font-weight: 200;
 		letter-spacing: 2px;
 		min-width: 18em;
 		padding: 0 0.75em;
@@ -2526,14 +2526,13 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: bottom left, bottom right, top left, top center;
+		background-image: url("../../images/banner.jpg");
+		/* background-position: bottom left, bottom right, top left, top center; */
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-size: cover ;
 		color: #fff;
 		cursor: default;
-		padding: 6em 0;
+		padding: 15em 0;
 		text-align: center;
 	}
 
@@ -2546,10 +2545,10 @@ input, select, textarea {
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+			/* background-color: rgba(76, 175, 80, 0.2); */
 			color: #fff;
 			display: inline-block;
-			opacity: 0;
+			opacity: 0.5;
 			padding: 3em;
 			text-align: center;
 		}
@@ -2625,10 +2624,10 @@ input, select, textarea {
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: top left, top right, top left, bottom center;
+		background-image: url("../../images/banner.jpg");
+		/* background-position: top left, top right, top left, bottom center; */
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-size: cover;
 		color: #fff;
 		padding: 5em;
 		text-align: center;
@@ -2643,7 +2642,7 @@ input, select, textarea {
 	#footer {
 		background: #E8EEF4;
 		color: #7c8081;
-		padding: 5em 5em 10em 5em;
+		padding: 2em 5em 2em 5em;
 		text-align: center;
 	}
 
@@ -2809,7 +2808,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				background-size: 15em, 15em, auto, cover;
+				background-size: 50em, 50em, auto, cover;
 			}
 
 		/* Main */
