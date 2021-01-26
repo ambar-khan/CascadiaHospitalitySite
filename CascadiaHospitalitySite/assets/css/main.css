@@ -1758,7 +1758,7 @@ input, select, textarea {
 
 		header.special h2 + p {
 			margin-bottom: 0;
-			padding-top: 1.5em;
+			padding-top: 1em;
 		}
 
 		header.special .icon {
@@ -1881,6 +1881,14 @@ input, select, textarea {
 				max-width: 100%;
 				height: 325px;
 				/* height: auto; Adjsut pic with window*/
+			}
+
+			.image.main img {
+				display: block;
+				margin-left: auto;
+  			margin-right: auto;
+  			width: 100%;
+			
 			}
 
 /* Icon */
@@ -2259,6 +2267,7 @@ input, select, textarea {
 			background: #fff;
 			color: inherit;
 			padding: 4em;
+			text-align: left;
 		}
 
 /* Header */
@@ -2601,7 +2610,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
+		/* background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg"); */
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
@@ -2626,7 +2635,7 @@ input, select, textarea {
 			}
 
 	body.index #main {
-		padding-top: 5em;
+		padding-top: 1em;
 	}
 
 /* CTA */
@@ -2650,7 +2659,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #E8EEF4;
+		/* background: #ffffff; */
 		color: #7c8081;
 		padding: 2em 5em 2em 5em;
 		text-align: center;
